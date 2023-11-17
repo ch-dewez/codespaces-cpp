@@ -1,6 +1,9 @@
 #include <iostream>
+#include <game.h>
 using namespace std;
 
 int main() {
-  cout << "Hello World!" << endl;
+  game game;
+  game.init();
+  
 }
